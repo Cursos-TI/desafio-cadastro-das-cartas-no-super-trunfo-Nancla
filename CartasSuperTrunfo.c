@@ -26,7 +26,7 @@ scanf("%s", carta);
 printf("A sua carta é: %s\n", carta);
 
 printf("Digite a cidade: ");
-scanf(" %29[^\n]", &cidade);
+scanf(" %29[^\n]", cidade);
 printf("A cidade é: %s\n", cidade);
 
 printf("Digite o número de habitantes da cidade: ");
