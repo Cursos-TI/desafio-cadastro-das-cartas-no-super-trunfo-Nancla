@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-char carta[10];
-char cidade[30];
+char (*) carta[10];
+char (*)cidade[30];
 char estado;
 int populacao;
 int numero;
@@ -30,8 +30,8 @@ scanf("%d", &numero);
 printf("O número de pontos turísticos é:");
 
 printf("Digite a área da cidade em km quadrados:");
-scanf("%f", &area);
-print("A área em km quadrados é:");
+scanf("%e", &area);
+printf("A área em km quadrados é:");
 
 
 
