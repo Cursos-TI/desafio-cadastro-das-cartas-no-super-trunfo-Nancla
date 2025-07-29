@@ -9,4 +9,6 @@ int numero;
 float area;
 float PIB;
  
-
+printf("Digite sua carta: ");
+scanf("%s", &carta);
+printf("A sua carta é: %s\n", carta);
